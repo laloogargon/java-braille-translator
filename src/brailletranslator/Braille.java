@@ -64,7 +64,7 @@ public class Braille {
             int confila = 0;
             int val = 0;
             File ar = new File(".");
-            String dir = ar.getCanonicalPath() + "\\Copia\\";
+            String dir = ar.getCanonicalPath() + "\\images\\";
             Paragraph parrafo2 = new Paragraph("\nSe muestra el código de la siguiente cadena:");
             parrafo2.setAlignment(Element.ALIGN_CENTER);
             docu.add(parrafo2);
