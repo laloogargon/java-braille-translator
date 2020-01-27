@@ -123,7 +123,7 @@ public class Main extends javax.swing.JFrame {
         if (tpCaja.getText().compareTo("") != 0) {
             Braille yuki = new Braille(tpCaja.getText());
             yuki.mandarPdf();
-            abrir("Lengua.pdf");
+            abrir("translation.pdf");
             tpCaja.setText("");
         } else {
             JOptionPane.showMessageDialog(null, "¡Ingrese Frase!");

@@ -54,7 +54,7 @@ public class Braille {
     public void mandarPdf() {
         Document docu = new Document();
         try {
-            PdfWriter.getInstance(docu, new FileOutputStream("Lengua.pdf"));
+            PdfWriter.getInstance(docu, new FileOutputStream("translation.pdf"));
             docu.open();
             Paragraph parrafo = new Paragraph("CÓDIGO BRAILE");
             parrafo.setAlignment(Element.ALIGN_CENTER);
