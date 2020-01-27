@@ -1,4 +1,4 @@
-package braile;
+package brailletranslator;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
@@ -14,13 +14,13 @@ import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Codigo implements IBraile {
+public class Braille {
 
     private String cadena;
     private String cad;
     private char[] arreglo;
 
-    public Codigo(String ca) {
+    public Braille(String ca) {
         this.cadena = ca;
         arreglo = cadena.toCharArray();
     }
@@ -149,7 +149,7 @@ public class Codigo implements IBraile {
 
             docu.close();
         } catch (DocumentException | IOException ex) {
-            Logger.getLogger(PruebaBraile.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(BrailleTranslator.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }
