@@ -1,2 +1,10 @@
 # Braille Translator
-Traductor a Código Braile en un archivo pdf.
+Traduce frases a un archivo pdf con imágenes en código braile.
+
+## Pantalla principal
+
+![Screenshot, Pantalla principal](screenshot.png "Pantalla principal")
+
+## Archivo de traducción
+
+![Translate, Archivo de traducción](translation.png "Archivo de traducción")
